@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0;
+  /* overflow: hidden prevents scrollbars from appearing if the screen gets too small */
+  overflow: hidden; 
+  background-color: #ffffff;
+}
+
+#line {
+  background-color: #000000;
+  width: 200px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* Negative margins equal to half the width and height ensure the 
+     transform-origin (the center of the line) is perfectly centered on screen */
+  margin-top: -1px;
+  margin-left: -100px;
+}
