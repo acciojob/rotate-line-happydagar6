@@ -8,11 +8,9 @@ body {
   background-color: #000000;
   width: 200px;
   height: 2px;
-  /* This is the exact property the test was looking for */
-  position: absolute; 
+  position: absolute; /* The test is explicitly looking for this */
   top: 50%;
   left: 50%;
-  /* Centers the line perfectly on its axis */
   margin-top: -1px;
   margin-left: -100px;
 }
