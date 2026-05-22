@@ -1,4 +1,3 @@
-//your JS code here. If required.
 // Select the line element
 const line = document.getElementById('line');
 
